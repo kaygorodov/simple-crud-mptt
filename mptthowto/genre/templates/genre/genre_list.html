@@ -4,7 +4,7 @@
 <ul class="root">
     {% recursetree object_list %}
         <li>
-            {{ node.name }}
+            {{ node.name }} <a href="{% url genre_delete pk=node.pk %}">remove</a>
             {% if not node.is_leaf_node %}
                 <ul class="children">
                     {{ children }}
@@ -13,5 +13,9 @@
         </li>
     {% endrecursetree %}
 </ul>
+
+
+<a href={% url genre_create %}>add new genre</a>
+
 </body>
 </html>
