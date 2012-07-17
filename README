@@ -7,3 +7,4 @@ http://localhost:8000/mptthowto/create
 http://localhost:8000/mptthowto/detail/1
 http://localhost:8000/mptthowto/list
 http://localhost:8000/mptthowto/update/1
+http://localhost:8000/mptthowto/delete/1
