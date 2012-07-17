@@ -1,0 +1,9 @@
+Simple CRUD django application with MPTT-Model.
+
+python mptthowto/manage.py syncdb --noinput
+python mptthowto/manage.py runserver
+
+http://localhost:8000/mptthowto/create
+http://localhost:8000/mptthowto/detail/1
+http://localhost:8000/mptthowto/list
+http://localhost:8000/mptthowto/update/1
